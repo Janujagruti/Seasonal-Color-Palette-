@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+select, input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0d8bf2;
+}
+
+/* Results Styling */
+.results {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff3cd;
+    border-left: 5px solid #ffc107;
+    border-radius: 10px;
+}
+
+.results h3 {
+    margin-bottom: 5px;
+}
+
+/* Custom Select Menu Colors */
+select {
+    background-color: white;
+}
+
+select option {
+    color: white;
+}
+
+select option[value="fair"] {
+    background-color: #f8d2b5; /* Example fair skin tone */
+}
+select option[value="light"] {
+    background-color: #dcab88; /* Light skin tone */
+}
+select option[value="medium"] {
+    background-color: #a77653; /* Medium skin tone */
+}
+select option[value="deep"] {
+    background-color: #7e4b3a; /* Deep skin tone */
+}
+select option[value="dark"] {
+    background-color: #5a3826; /* Dark skin tone */
+}
+
+select option[value="blue"] {
+    background-color: #1E90FF; /* Blue eyes */
+}
+select option[value="green"] {
+    background-color: #32CD32; /* Green eyes */
+}
+select option[value="hazel"] {
+    background-color: #8E7618; /* Hazel eyes */
+}
+select option[value="gray"] {
+    background-color: #A9A9A9; /* Gray eyes */
+}
+select option[value="brown"] {
+    background-color: #5a3826; /* Brown eyes */
+}
+select option[value="blue-green"] {
+    background-color: #20B2AA; /* Blue-Green eyes */
+}
+
+select option[value="blonde"] {
+    background-color: #f1e1a6; /* Blonde hair */
+}
+select option[value="light brown"] {
+    background-color: #a3836b; /* Light Brown hair */
+}
+select option[value="golden brown"] {
+    background-color: #a97e5b; /* Golden Brown hair */
+}
+select option[value="auburn"] {
+    background-color: #9e4b3e; /* Auburn hair */
+}
+select option[value="brown"] {
+    background-color: #5d3a2f; /* Brown hair */
+}
+select option[value="dark brown"] {
+    background-color: #352d26; /* Dark Brown hair */
+}
+select option[value="black"] {
+    background-color: #0f0f0f; /* Black hair */
+}
+select option[value="black-brown"] {
+    background-color: #322b28; /* Black-Brown hair */
+}
+select option[value="ash blonde"] {
+    background-color: #a8a8b2; /* Ash Blonde hair */
+}
